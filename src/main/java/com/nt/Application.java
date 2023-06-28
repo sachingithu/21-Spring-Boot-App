@@ -11,6 +11,8 @@ public class Application {
 		ConfigurableApplicationContext run=SpringApplication.run(Application.class, args);
 		run.close();
 		//HSI 132
+
+int i=10;
 	}
 
 }
