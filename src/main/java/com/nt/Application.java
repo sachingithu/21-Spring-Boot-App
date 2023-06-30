@@ -6,10 +6,14 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class Application {
+  int a=50;
+int b=70;
+
 //HIS 301 task
 public void loadToCatch{
 
 }
+
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run=SpringApplication.run(Application.class, args);
 		run.close();
